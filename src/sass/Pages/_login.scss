@@ -1,0 +1,28 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, $color-primary-dark);
+  background-size: 10000% 10000%;
+  position: relative;
+  -webkit-animation: gradient 5s ease infinite;
+  animation: gradient 5s ease infinite;
+
+  &-modal {
+    height: 80%;
+    width: 30%;
+    min-width: 20rem;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 6px 9px rgba($color: $color-black, $alpha: 0.2);
+
+    &-container {
+      display: block;
+      margin: 3rem auto;
+      text-align: center;
+    }
+  }
+}
